@@ -563,7 +563,7 @@ a {
 
   .callout .btn {
     justify-self: start;
-    margin: 2rem;
+    margin: 0 2rem;
   }
 }
 
@@ -810,6 +810,7 @@ a {
 /* Footer */
 .footer {
   background: #232323;
+  padding-top: 10rem;
 }
 
 .footer a {
@@ -882,4 +883,10 @@ a {
   .footer__heading {
     font-size: 1.6rem;
   }
+}
+
+/* Sign-up Callout */
+
+.callout-signup {
+  transform: translateY(5rem);
 }
